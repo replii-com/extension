@@ -1,0 +1,22 @@
+{
+	"manifest_version": 3,
+	"name": "Replii",
+	"description": "Comments on every website",
+	"version": "1.0",
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_title": "Click to open sidebar"
+	},
+	"side_panel": {
+		"default_path": "sidepanel.html"
+	},
+	"host_permissions": ["<all_urls>"],
+	"permissions": [
+		"sidePanel",
+		"declarativeNetRequest",
+		"tabs",
+		"notifications"
+	]
+}
