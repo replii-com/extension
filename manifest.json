@@ -18,5 +18,8 @@
 		"declarativeNetRequest",
 		"tabs",
 		"notifications"
-	]
+	],
+	"icons": {
+		"128": "icon128.png"
+	}
 }

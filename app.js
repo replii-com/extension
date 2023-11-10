@@ -1,4 +1,4 @@
-const REPLII_BASE = 'http://localhost:3000/sidebar';
+const REPLII_BASE = 'https://replii.netlify.app/sidebar';
 
 function updateContent() {
 	chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
